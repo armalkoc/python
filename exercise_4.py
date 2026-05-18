@@ -51,7 +51,19 @@ def calculate_upper_and_lower_letters(user_input):
 user_input = input("Dear user, please enter some random string that includes upper and lower letters:\n")
 calculate_upper_and_lower_letters(user_input)
 
-#
+# Write a function that prints the even numbers from a provided list
+
+user_num = input("Dear user please enter the list of the numbers:\n")
+numbers_list = [int(num) for num in user_num.split()]
+print(numbers_list)
+
+def print_even_numbers(numbers_list):
+    for number in numbers_list:
+        if number % 2 == 0:
+            print(f"Even number is: {number}")
+
+print_even_numbers(numbers_list)
+
 
 
 
