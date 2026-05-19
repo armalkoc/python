@@ -40,6 +40,7 @@ while True:
     else:
         calculator(int(num1), int(num2), operation)
         num_of_calculations += 1
+        print(f"Your calculation has been made {num_of_calculations} times")
 
 
 
